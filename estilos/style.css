@@ -8,7 +8,7 @@
 
 html, body{
     height: 100vh;
-    height: 100vw;
+    width: 100vw;
     background-color: floralwhite;
 }
 
@@ -24,11 +24,19 @@ main{
 }
 
 section#telefone{
+    position: absolute;
     background: url('../imagens/frame-iphone.png');
     height: 627px;
     left: 50%;
-    position: absolute;
     top: 50%;
     transform: translate(-50%, -50%);
     width: 311px;
+}
+
+iframe#tela{
+    position: relative;
+    top: 80px;
+    left: 22.2px;
+    height: 471.5px;
+    width: 268px;
 }
