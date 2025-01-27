@@ -25,8 +25,8 @@ main{
 
 section#telefone{
     position: absolute;
-    background: url('../imagens/frame-iphone.png');
-    height: 627px;
+    background: url('../imagens/moto-frame.png');
+    height: 650px;
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
@@ -54,8 +54,9 @@ section#redes-sociais img:hover{
 
 iframe#tela{
     position: relative;
-    top: 80px;
-    left: 22.2px;
-    height: 471.5px;
+    border-radius: 25px;
+    top: 22px;
+    left: 29px;
+    height: 600px;
     width: 268px;
 }
